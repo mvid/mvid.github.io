@@ -1,0 +1,52 @@
+title = 'Mantas Vidutis'
+
+baseurl = "https://mvid.github.io"
+languageCode = "en-us"
+theme = "terminal"
+paginate = 5
+
+[params]
+  # dir name of your blog content (default is `content/posts`)
+  contentTypeName = "posts"
+  # ["orange", "blue", "red", "green", "pink"]
+  themeColor = "green"
+  # if you set this to 0, only submenu trigger will be visible
+  showMenuItems = 5
+  # set theme to full screen width
+  fullWidthTheme = false
+  # center theme with default width
+  centerTheme = false
+  # set a custom favicon (default is a `themeColor` square)
+  # favicon = "favicon.ico"
+
+[languages]
+  [languages.en]
+    title = "mvid"
+    subtitle = ""
+    keywords = ""
+    copyright = "Mantas Vidutis 2022"
+    menuMore = "Show more"
+    readMore = "Read more"
+    readOtherPosts = "Read other posts"
+
+    [languages.en.params.logo]
+      logoText = "mvid"
+      logoHomeLink = "/"
+
+    [languages.en.menu]
+      [[languages.en.menu.main]]
+        identifier = "photos"
+        name = "Photos"
+        url = "https://photo.vidutis.com"
+      [[languages.en.menu.main]]
+        identifier = "corporate"
+        name = "Corporate"
+        url = "https://linkedin.com/in/mvidutis"
+      [[languages.en.menu.main]]
+        identifier = "code"
+        name = "Code"
+        url = "https://github.com/mvid"
+      [[languages.en.menu.main]]
+        identifier = "social"
+        name = "Social"
+        url = "https://instagram.com/mvid"
